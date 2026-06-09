@@ -12,3 +12,6 @@ node_modules/
 .idea/
 .vscode/*
 !.vscode/extensions.json
+
+# Hono build directory
+dist/

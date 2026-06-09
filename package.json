@@ -5,6 +5,7 @@
 	"private": true,
 	"scripts": {
 		"deploy": "wrangler deploy",
+		"build": "tsx build.ts",
 		"dev": "wrangler dev",
 		"check": "tsc -noEmit",
 		"lint": "eslint ."
@@ -16,6 +17,7 @@
 		"@cloudflare/workers-types": "^4.20260228.0",
 		"@microsoft/eslint-formatter-sarif": "^3.1.0",
 		"@ryanccn/eslint-config": "^0.5.1",
+		"@types/node": "^25.9.2",
 		"eslint": "^9.39.2",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-unicorn": "^59.0.1",

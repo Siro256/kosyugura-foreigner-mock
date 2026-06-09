@@ -14,8 +14,8 @@
 		"module": "preserve",
 		"noEmit": true,
 		"lib": ["es2022"],
-		"types": ["@cloudflare/workers-types"]
+		"types": ["@cloudflare/workers-types", "node"]
 	},
-	"include": ["**/*.js", "**/*.ts"],
+	"include": ["**/*.js", "**/*.ts", "**/*.tsx"],
 	"exclude": ["node_modules/*", "**/node_modules/*"]
 }
