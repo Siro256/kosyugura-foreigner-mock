@@ -8,6 +8,6 @@ const app = new Hono<{
 	Variables: Variables;
 }>();
 
-app.get("/", (c) => c.text("hello world!"));
+app.get("/", (c) => c.render("hello world!"));
 
 export default app;
